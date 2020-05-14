@@ -1,7 +1,7 @@
 # number-to-alphanumeric
 
 This learning project is based of of two example projects from Okta Developer.
-* [angular-7-and-spring-boot](https://developer.okta.com/blog/2018/08/22/basic-crud-angular-7-and-spring-boot-2)
+* [angular-7-spring-boot-2](https://developer.okta.com/blog/2018/08/22/basic-crud-angular-7-and-spring-boot-2)
 * [angular-8-spring-boot-2](https://developer.okta.com/blog/2019/05/13/angular-8-spring-boot-2)
 
 To run the server, cd into the `server` folder and run:
