@@ -1,0 +1,14 @@
+<mat-card>
+  <mat-card-title>Number List</mat-card-title>
+  <mat-card-content>
+    <mat-list>
+      <mat-list-item *ngFor="let number of numbers">
+        <img mat-list-avatar src="{{number.giphyUrl}}" alt="{{number.name}}">
+        <h3 mat-line>
+          <a mat-button [routerLink]="['/number-edit', number.id]">{{number.name}}</a>
+        </h3>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+  <button mat-fab color="primary" [routerLink]="['/number-add']">Add</button>
+</mat-card>

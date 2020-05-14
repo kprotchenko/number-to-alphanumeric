@@ -1,0 +1,7 @@
+version: '2'
+services:
+  phone-parser:
+    image: number-to-alphanumeric/phone-parser:0.0.1
+    container_name: phone-parser
+    ports:
+      - 8080:8080
