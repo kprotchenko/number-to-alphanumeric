@@ -30,6 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Docker
 You can run this project locally in a docker container although the image is rather large
 ```
+npm install
 docker build -t client .
 docker run -it -p 4200:4200 --name client client
 ```
